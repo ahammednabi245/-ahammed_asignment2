@@ -5,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
     font-family: 'Work Sans';
+    
 }
 
 .introduction {
@@ -66,7 +67,6 @@ a:hover {
 /* banner section start  */
 .banner-section {
     width: 100%;
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     padding-top: 80px;
@@ -116,9 +116,11 @@ a:hover {
 /* nav media query start*/
 
 @media (max-width: 952px) {
+
     label.company-name {
-        font-size: 30px;
-        padding-left: 30px;
+        font-size: 25px;
+        padding-left: 15px;
+     
     }
 
     nav ul li a {
@@ -132,19 +134,14 @@ a:hover {
     .checkbtn {
         display: block;
         float: right;
-        /* font-size: 30px;
-        color: black;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer; */
+        margin-right: 15px;
 
     }
 
     ul {
         position: fixed;
         width: 100%;
-        /* height: 100vh; */
+        height: 100vh;
         background: #98b3ce;
         top: 80px;
         left: -100%;
@@ -182,7 +179,6 @@ a:hover {
 @media (max-width: 952px) {
     .banner-section {
         width: 100%;
-        /* height: 100vh; */
         display: flex;
         justify-content: center;
         padding-top: 80px;
@@ -225,8 +221,10 @@ a:hover {
     }
 
     .banner-img {
-        width: 400px;
+        width: 100%;
         height: 200px;
         padding: 35px;
     }
 }
+
+/* banner text media query end */
