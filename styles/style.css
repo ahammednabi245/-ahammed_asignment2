@@ -112,6 +112,58 @@ a:hover {
     height: 550px;
     padding: 35px;
 }
+/*Feature section  start */
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 75px;
+}
+
+.feature-box{
+    display: flex;
+   
+}
+
+.feature-team{
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+}
+
+.feature-heading{
+    font-weight:bold;
+    font-size: 35px;
+    
+}
+
+.feature-heading-1st-style{
+    color: #727272;
+}
+
+.feature-heading-2nd-style{
+    color: #FF900E;
+}
+
+.feature-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.feature-btn{
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 15px;
+}
+/*Feature section  end */
 
 /* nav media query start*/
 
@@ -228,3 +280,73 @@ a:hover {
 }
 
 /* banner text media query end */
+
+/* feature  section media query  start */
+@media (max-width: 952px){
+    .feature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 75px;
+    }
+    
+    .feature-box{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .feature-team{
+        padding: 10px;
+        width: 220px;
+        height: 220px;
+    }
+    
+    .feature-right-side{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+    }
+    
+    .feature-heading{
+        width: 100%;
+        font-weight:bold;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    
+    .feature-heading-1st-style{
+        color: #727272;
+    }
+    
+    .feature-heading-2nd-style{
+        color: #FF900E;
+    }
+    
+    .feature-description{
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 400;
+        color: #727272;
+        padding: 25px;
+        width: 65%;
+        margin: auto;
+    }
+    
+    .feature-btn{
+        background: #FF900E;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        padding: 15px;
+    }
+
+}
+
+/* feature  section media query  end */
