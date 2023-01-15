@@ -362,12 +362,11 @@ a:hover {
 /* footer section */
 
 .copyright {
-    width: 900px;
+    width: 100%;
     height: 100px;
     border: none;
     background: #fff4e6;
     border-radius: 8px;
-    margin-left: 200px;
     margin-bottom: 15px;
 }
 
@@ -379,6 +378,69 @@ a:hover {
     line-height: 23px;
     color: #424242;
 }
+
+
+.information-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 400px;
+    background-color:#fff4e6;
+    gap: 20px;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: 600px;
+    padding-bottom: 10px;
+    
+}
+
+.round-box{
+    padding: 18px;
+    background: none;
+    border: 2px solid #424242;
+    width:250px;
+    border-radius: 8px;
+
+
+}
+
+.sub-btn {
+    border-radius: 5px;
+    width: 155.11px;
+    height: 64px;
+    margin-top: 31px;
+    color:white;
+    background-color: #FF900E;
+    font-size: 18px;
+    font-weight: 700px;
+    border: none;
+    
+}
+
+
+.contact-title{
+    font-size:25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.contact-description{
+    padding-bottom: 10px;
+}
+
+p{
+    font-size:15px;
+    font-weight: bold;
+}
+
+
+
+
+
 
 
 /* nav media query start*/
@@ -440,7 +502,7 @@ a:hover {
     }
 }
 
-/* nav media query end*/
+
 
 /* banner text media query start */
 
@@ -460,7 +522,7 @@ a:hover {
     }
 
     .banner-title {
-        font-size: 65px;
+        font-size: 50px;
         font-weight: 700;
         color: black;
 
@@ -472,7 +534,7 @@ a:hover {
         font-weight: 400;
         color: #727272;
         padding: 25px;
-        width: 50%;
+        width: 70%;
         margin: auto;
     }
 
@@ -495,7 +557,7 @@ a:hover {
     }
 }
 
-/* banner text media query end */
+
 
 /* feature  section media query  start */
 @media (max-width: 952px) {
@@ -565,7 +627,7 @@ a:hover {
 
 }
 
-/* feature  section media query  end */
+
 
 /* banner blog feature section media query start */
 
@@ -668,7 +730,7 @@ a:hover {
 
 }
 
-/* banner blog feature section media query end  */
+
 
 
 /* fact section media query start */
@@ -801,6 +863,71 @@ a:hover {
 
 }
 
+/* contact section  */
+
+@media (max-width: 952px){
+       
+    .information-part{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 8px;
+        width: 100%;
+        height: 600px;
+        background-color:#fff4e6;
+        gap: 0px;
+    }
+    
+    .sub-title {
+        font-size: 25px;
+        font-weight: 600px;
+        padding-bottom: 10px;
+        
+    }
+    
+    .round-box{
+        padding: 18px;
+        background: none;
+        border: 2px solid #424242;
+        width:250px;
+        border-radius: 8px;
+    
+    
+    }
+    
+    .sub-btn {
+        border-radius: 5px;
+        width: 155.11px;
+        height: 64px;
+        margin-top: 31px;
+        color:white;
+        background-color: #FF900E;
+        font-size: 18px;
+        font-weight: 700px;
+        border: none;
+        
+    }
+    
+    
+    .contact-title{
+        font-size:25px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    
+    .contact-description{
+        padding-bottom: 10px;
+    }
+    
+    p{
+        font-size:15px;
+        font-weight: bold;
+    }
+    
+
+}
+
 
 
 /* footer section */
@@ -825,3 +952,4 @@ a:hover {
     }
 
 }
+
