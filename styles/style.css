@@ -288,11 +288,11 @@ a:hover {
     height: 180px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    
-   
+
+
 }
 
-.company-history:hover{
+.company-history:hover {
     background-color: #98b3ce;
     transform: rotate(-360deg);
     transition: .05s;
@@ -317,6 +317,65 @@ a:hover {
     font-size: 15px;
     color: #727272;
 }
+
+/* sponsor section */
+
+.sponsor-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* sponsor img */
+
+.sponsor-container {
+    margin-left: 125px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+
+
+
+}
+
+.sponsor-img {
+    display: flex;
+    list-style: none;
+}
+
+.sponsor-logo {
+    margin-right: 10px;
+    padding: 20px;
+}
+
+/* footer section */
+
+.copyright {
+    width: 900px;
+    height: 100px;
+    border: none;
+    background: #fff4e6;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+.copyright-description {
+    padding-top: 45px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+}
+
 
 /* nav media query start*/
 
@@ -642,49 +701,118 @@ a:hover {
 
 /* history media query  */
 
-@media (max-width: 952px){
+@media (max-width: 952px) {
     .history {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 90px;
-    
+
     }
-    
+
     .company-history {
         width: 70%;
         height: 280px;
         border: 1px solid #FF900E;
         border-radius: 8px;
         padding-top: -100px;
-        
-       
+
+
     }
-    
-    .company-history:hover{
+
+    .company-history:hover {
         background-color: #98b3ce;
         transform: rotate(-360deg);
         transition: .05s;
         cursor: pointer;
     }
-    
+
     .history-icon {
         padding-left: 20px;
         padding-top: -200px;
     }
-    
+
     .history-desctiption {
         text-align: center;
         font-weight: 600;
         font-size: 30px;
         color: #424242;
     }
-    
+
     .history-title {
         text-align: center;
         font-weight: 600;
         font-size: 15px;
         color: #727272;
     }
+}
+
+/*  sponsor section */
+@media (max-width: 952px) {
+    .sponsor-heading {
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+
+    .sponsor-description {
+        width: 80%;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        padding-top: 10px;
+        padding-left: 50px;
+    }
+
+}
+
+/* sponsor img media */
+
+@media (max-width: 952px) {
+    .sponsor-container {
+        margin-left: 125px;
+        padding-top: 40px;
+        padding-bottom: 5px;
+
+    }
+
+    .sponsor-img {
+        display: flex;
+        list-style: none;
+    }
+
+    .sponsor-logo {
+        margin-right: 10px;
+        padding: 20px;
+    }
+
+}
+
+
+
+/* footer section */
+@media (max-width: 952px){
+.copyright {
+    width: 100%;
+    height: 100px;
+    border: none;
+    background: #fff4e6;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+.copyright-description {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+}
+
 }
