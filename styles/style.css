@@ -344,9 +344,14 @@ a:hover {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: white;
+    mix-blend-mode: luminosity;
+
 }
 
 .sponsor-img {
+    background-color: white;
+    mix-blend-mode: luminosity;
        padding: 20px;
 }
 
