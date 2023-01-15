@@ -271,6 +271,53 @@ a:hover {
     color: #727272;
 }
 
+
+/* history section */
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 90px;
+
+}
+
+.company-history {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+   
+}
+
+.company-history:hover{
+    background-color: #98b3ce;
+    transform: rotate(-360deg);
+    transition: .05s;
+    cursor: pointer;
+}
+
+.history-icon {
+    padding-left: 69px;
+    padding-top: 40px;
+}
+
+.history-desctiption {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+}
+
+.history-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+}
+
 /* nav media query start*/
 
 @media (max-width: 952px) {
@@ -578,8 +625,8 @@ a:hover {
         font-weight: 700;
         font-size: 25px;
         color: #131313;
-        width: 50%;
-        
+        width: 80%;
+
 
     }
 
@@ -587,8 +634,57 @@ a:hover {
         font-weight: 200;
         font-size: 14px;
         color: #727272;
-        width: 60%;
-        text-align: justify;
+        width: 75%;
+        text-align: left;
         padding-top: 10px;
+    }
+}
+
+/* history media query  */
+
+@media (max-width: 952px){
+    .history {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    
+    }
+    
+    .company-history {
+        width: 70%;
+        height: 280px;
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        padding-top: -100px;
+        
+       
+    }
+    
+    .company-history:hover{
+        background-color: #98b3ce;
+        transform: rotate(-360deg);
+        transition: .05s;
+        cursor: pointer;
+    }
+    
+    .history-icon {
+        padding-left: 20px;
+        padding-top: -200px;
+    }
+    
+    .history-desctiption {
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        color: #424242;
+    }
+    
+    .history-title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 15px;
+        color: #727272;
     }
 }
