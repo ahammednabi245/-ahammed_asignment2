@@ -253,7 +253,23 @@ a:hover {
 
 /* fact section */
 
+.fact {
+    padding: 100px 100px 10px 180px;
 
+}
+
+.fact-heading {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 
 /* nav media query start*/
 
@@ -447,7 +463,7 @@ a:hover {
     .banner-feature-blog-section {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .banner-feature-left-side {
@@ -458,13 +474,13 @@ a:hover {
 
     .banner-feature-right-side {
         padding-top: 0px;
-        width:100%;
+        width: 100%;
         display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       
-       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
 
     }
 
@@ -513,11 +529,11 @@ a:hover {
 
 
     }
-     
-      img{
+
+    img {
         width: 90%;
-      }
-     
+    }
+
     .banner-feature-blog-btn {
 
         font-weight: 500;
@@ -543,3 +559,36 @@ a:hover {
 }
 
 /* banner blog feature section media query end  */
+
+
+/* fact section media query start */
+
+@media (max-width: 952px) {
+    .fact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 10px 10px 88px;
+
+
+    }
+
+    .fact-heading {
+        font-weight: 700;
+        font-size: 25px;
+        color: #131313;
+        width: 50%;
+        
+
+    }
+
+    .fact-description {
+        font-weight: 200;
+        font-size: 14px;
+        color: #727272;
+        width: 60%;
+        text-align: justify;
+        padding-top: 10px;
+    }
+}
